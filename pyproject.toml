@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "Example"
+version = "1.0.0"
+description = "example."
+authors = ["lriki <lriki.net@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mkdocs = "^1.4.2"
+mkdocs-material = "^9.0.14"
+pymdown-extensions = "^9.9.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
